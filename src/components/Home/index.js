@@ -17,7 +17,7 @@ class Home extends Component {
               state.posts.push({
                 key: childItem.key,
                 titulo: childItem.val().titulo,
-                imagem: childItem.val().imagem,
+                image: childItem.val().image,
                 descricao: childItem.val().descricao,
                 autor: childItem.val().autor,
               })
@@ -39,7 +39,7 @@ class Home extends Component {
                                     <span>Autor: {post.autor}</span>
                                 </div>
                             </header>
-                            <img src={post.imagem} alt="Capa Post" />
+                            <img src={post.image} alt="Capa Post" />
                             <footer><p>{post.descricao}</p></footer>
                         </article>
                     );
