@@ -1,0 +1,21 @@
+header#main-header{
+    background:#272727;
+    height: 72px;
+}
+
+header#main-header .header-content{
+    width: 100%;
+    max-width:930px;
+    margin: 0 auto;
+    height: 72px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header .header-content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
